@@ -1,0 +1,42 @@
+header {
+  background-image: url("../assets/Background_Intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    text-align: center;
+    width: 100%;
+    max-width: 680px;
+  }
+
+  &> div {
+    margin: 120px 163px 183px 163px;
+
+    h1 {
+      margin-block: 10px 20px;
+    }
+  }
+
+  .contain-img {
+    height: 96px;
+    width: 96px;
+    border: 2px solid var(--red);
+    border-radius: 100%;
+    margin-bottom: 56px;
+    position: relative;
+
+    background-image: url('../assets/Eu\ linkedin.jpg');
+    background-size: cover;
+    background-position: center -12px;
+    
+
+    .icon {
+      position: absolute;
+      bottom: -5px;
+      right: -6px;
+      width: 32px;   /* ajuste conforme seu ícone */
+      height: 32px;
+      z-index: 10;
+    }
+  }
+}

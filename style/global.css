@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
- :root {
+:root {
   --font-family-asap: "Asap", sans-serif;
   --font-family-inconsolata: "Inconsolata", monospace;
   --font-family-maven: "Maven Pro", sans-serif;
@@ -28,17 +28,40 @@
   --sub-tittle: 400 16px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-maven);
   --text-sm: 400 14px/140% var(--font-family-maven);
- }
+}
 
- h1 {
+h1 {
   font: var(--tittle-lg);
- }
+}
 
- h2 {
+h2 {
   font: var(--tittle-md);
- }
+}
 
- h3 {
+h3 {
   font: var(--tittle-sm);
- }
+}
 
+span {
+  font: var(--sub-tittle);
+  letter-spacing: 1.8px;
+  color: var(--gray-200);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-300);
+}
+
+body {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.color-red {
+  color: var(--red);
+}
