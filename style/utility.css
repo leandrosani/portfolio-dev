@@ -42,7 +42,6 @@
 
 .text-sm {
   font: var(--text-sm);
-
 }
 
 /*COLORS*/
@@ -61,6 +60,10 @@
 
 .color-green {
   color: var(--green);
+}
+
+.color-purple {
+  color: var(--purple);
 }
 
 .gray-200 {
