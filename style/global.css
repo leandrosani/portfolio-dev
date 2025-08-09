@@ -47,6 +47,11 @@ body {
   color: var(--gray-100);
 }
 
+a {
+  text-decoration: none;
+  width: 100%;
+}
+
 .container {
   max-width: 1280px;
 }

@@ -14,6 +14,11 @@ section#work {
       max-width: 330px;
       max-height: 280px;
       border-radius: 12px;
+      
+      &:hover {
+      transition: 0.5s;
+      background-color: var(--gray-600);
+    }
 
       img {
         display: block;
@@ -94,7 +99,7 @@ section#contact {
     gap: 16px;
     margin-top: 48px;
   }
-
+  
   article {
     width: 100%;
     max-width: 400px;
@@ -105,6 +110,11 @@ section#contact {
     gap: 12px;
     border-radius: 8px;
     padding: 20px;
+
+    &:hover {
+      transition: 0.5s;
+      background-color: var(--gray-600);
+    }
 
     img {
       width: 23px;
