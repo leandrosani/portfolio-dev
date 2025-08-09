@@ -10,10 +10,76 @@
   flex-direction: column;  
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-col {
+  grid-auto-flow: column;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .align-center {
   align-items: center;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.sub-header {
+  font: var(--sub-tittle);
+  letter-spacing: 1px;
+  color: var(--gray-200);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+
+}
+
+/*COLORS*/
+
+.color-red {
+  color: var(--red);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-yellow {
+  color: var(--yellow);
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.gray-200 {
+  color: var(--gray-200);
+}
+
+
+.gray-300 {
+  color: var(--gray-300);
+}
+
+.gray-400 {
+  color: var(--gray-400);
+}
+
+.gray-500 {
+  color: var(--gray-500);
+}
+
+.gray-600 {
+  color: var(--gray-600);
 }

@@ -42,17 +42,6 @@ h3 {
   font: var(--tittle-sm);
 }
 
-span {
-  font: var(--sub-tittle);
-  letter-spacing: 1.8px;
-  color: var(--gray-200);
-}
-
-p {
-  font: var(--text-sm);
-  color: var(--gray-300);
-}
-
 body {
   background-color: var(--gray-500);
   color: var(--gray-100);
@@ -60,8 +49,4 @@ body {
 
 .container {
   max-width: 1280px;
-}
-
-.color-red {
-  color: var(--red);
 }
