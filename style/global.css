@@ -32,10 +32,12 @@
 
 h1 {
   font: var(--tittle-lg);
+  text-align: center;
 }
 
 h2 {
   font: var(--tittle-md);
+  text-align: center;
 }
 
 h3 {
@@ -58,4 +60,21 @@ a:visited {
 
 .container {
   max-width: 1280px;
+}
+
+@media (max-width: 480px){
+  h1 {
+    font-size: 42px;
+    background-color: #292c34ad;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  p {
+    background-color: #292c34ad;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+
 }

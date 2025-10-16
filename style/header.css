@@ -6,7 +6,7 @@
 
   div p {
     text-align: center;
-    width: 100%;
+    width: 90%;
     max-width: 680px;
     font: var(--text-sm);
     color: var(--gray-300);
@@ -46,6 +46,7 @@
 
 .content {  
   max-width: 754px;
+  
   width: 100%;
   gap: 20px;
   margin-top: 80px;
@@ -69,4 +70,22 @@
       color: var(--gray-200);
     }
   }
+}
+
+@media (max-width: 768px){
+  header#primary {
+    text-align: center;
+    padding-inline: 40px;
+
+    .container {
+      margin-inline: 40px;
+    }
+
+    p,
+    span {
+      font-size: 18px;
+      color:rgb(215, 220, 224);
+    }
+  }
+
 }

@@ -1,5 +1,7 @@
 section#work {
   margin-bottom: 144px;
+  margin-inline: 40px;
+  width: 90%;
 
   header {
     margin-bottom: 56px;
@@ -7,7 +9,13 @@ section#work {
   }
 
   div.grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0 auto;
+
+    a {
+      margin: 0 auto;
+      width: auto;
+    }
 
     article {
       background-color: var(--gray-400);
@@ -45,6 +53,7 @@ section#services {
   width: 100%;
   background-color: var(--gray-600);
   padding-bottom: 120px;
+  padding-inline: 40px;
 
   header {
     margin-block: 88px 56px;
@@ -75,6 +84,7 @@ section#contact {
   width: 100%;
   background-image: url(../assets/Background_Contacts.png);
   margin-block: 80px 180px;
+  padding: 20px;
 
   header{
     width: 100%;

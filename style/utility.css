@@ -86,3 +86,7 @@
 .gray-600 {
   color: var(--gray-600);
 }
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
