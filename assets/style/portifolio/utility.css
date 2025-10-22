@@ -1,0 +1,83 @@
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;  
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col {
+  grid-auto-flow: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.sub-header {
+  letter-spacing: 1px;
+  color: var(--gray-200);
+}
+
+/*COLORS*/
+
+.color-red {
+  color: var(--red);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-yellow {
+  color: var(--yellow);
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.color-purple {
+  color: var(--purple);
+}
+
+.gray-200 {
+  color: var(--gray-200);
+}
+
+
+.gray-300 {
+  color: var(--gray-300);
+}
+
+.gray-400 {
+  color: var(--gray-400);
+}
+
+.gray-500 {
+  color: var(--gray-500);
+}
+
+.gray-600 {
+  color: var(--gray-600);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}

@@ -3,19 +3,36 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./assets/style/portifolio/index.css">
   <title>Dev Leandro Sani</title>
 </head>
 <body>
+  <header class="desktop-header">
+    <div class="container-row">
+      
+      <nav class="list">
+        <ul>
+          <li><a href="#primary">Home</a></li>
+          <li><a href="#work">Projetos</a></li>
+          <li><a href="#services">Meus serviços</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </nav>
+      <div class="btn-budget">
+        <p>ORÇAMENTO GRÁTIS</p>
+      </div>
+    </div>
+  </header>
+
   <header id="primary" class="flex flex-column align-center">
     <div class="flex flex-column align-center container">
       <div class="contain-img">
         <img class="icon" src="./assets/icons/Vector (3).png" alt="">
       </div>
-      <span class="sub-header">Hello World! Meu nome é <span class="color-red">Leandro Sani</span> e sou</span>
+      <span class="sub-header">Olá, Meu nome é <span class="red color-red">Leandro Sani</span> e sou</span>
       <h1>Desenvolvedor Fullstack</h1>
       <p>
         Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
@@ -73,7 +90,7 @@
             <div>
               <h3>Travelgram</h3>
               <p class="text-sm gray-200">
-                Rede social onde as pessoas mostram os registros de suas viagens pelo mundo
+                Motrar suas fotos e guardalas para ver quando quiser.
               </p>
             </div>
           </article>
@@ -104,25 +121,25 @@
           </article>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://leandrosani.github.io/site-dumonteprojetos/" target="_blank">
           <article>
-            <div><img src="./assets/image/Thumbnail_Project-04.png" alt=""></div>
+            <div><img src="./assets/image/dumont-projetos.jpg" alt=""></div>
             <div>
-              <h3>Zingen</h3>
+              <h3>Dumont Projetos</h3>
               <p class="text-sm gray-200">
-                Landing Page completa e responsiva de um aplicativo de Karaokê
+                Site de construtora, projetos de chalés e casas
               </p>
             </div>
           </article>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://leandrosani.github.io/site-agencia-dk/" target="_blank">
           <article>
-            <div><img src="./assets/image/Thumbnail_Project-05.png" alt=""></div>
+            <div><img src="./assets/image/project.jpg" alt=""></div>
             <div>
-              <h3>Refund</h3>
+              <h3>Agência de sites</h3>
               <p class="text-sm gray-200">
-                Um sistema para pedido e acompanhamento de reembolso 
+                Site para obter clientes com interesse em criação de sites profissionais
               </p>
             </div>
           </article>
@@ -222,6 +239,132 @@
         </div>
       </div>
     </section><!--contact-->
+    
+    <footer id="footer">
+      <div class="container-column">
+        <div class="footer-wrap">
+          <div class="footer-mid">
+            <div class="navigation">
+              <img src="assets/images/icons/menu-suspenso.png" alt="">
+              <h3>Navegação</h3>
+            </div>
+            <div class="list">
+              <ul>
+                <li><a href="#primary">Home</a></li>
+                <li><a href="#work">Projetos</a></li>
+                <li><a href="#services">Meus serviços</a></li>
+                <li><a href="#contact">Contatos</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-right">
+            <div class="contact">
+              <img src="assets/images/icons/contact-us.png" alt="">
+              <h3>Contato</h3>
+            </div>
+            <div class="email-contato">
+              <p>E-mail:</p>
+              <span>leandrocs.sani@gmail.com</span>
+            </div>
+            <div class="phone-contato">
+              <p>WhatsApp:</p>
+              <span>(27) 99628-9062</span>
+            </div>
+            <div class="end-contato">
+              <span>Domingos Martins, ES</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-botton">
+          <span>© 2025 Leandro Sani. Todos os direitos reservados.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="whatsapp">
+        <img class="whatsapp-img" src="assets/images/icons/whatsapp.png" alt="">
+      </div>
+
+    <div class="whatsapp-wrap opacity">
+      <div class="whatsapp-header">
+        <span>Whatsapp</span>
+        <img class="close" src="assets/images/icons/close.png" alt="">
+      </div>
+
+      <div class="whatsapp-section">
+        <div class="whatsapp-message">
+          <span>
+            Olá, </br>
+            Posso ajudar?
+          </span>
+        </div> 
+
+        <div class="whatsapp-link">
+          <a href="https://wa.me/5527996289062?text=Olá%2C+quero+saber+mais+sobre+seus+serviços" target="_blank">
+            <div class="whatsapp-btn">
+              <span>Chamar no Whatsapp</span>
+              <img src="assets/images/icons/send.png" alt="">
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
   </main>
+
+  <!--MODAL ORÇAMENTO-->
+  <div id="modal-orcamento" class="modal-overlay">
+  <div class="modal-content">
+    <button id="close-modal" class="close-button">&times;</button>
+    
+    <h2>Solicite seu Orçamento Gratuito</h2>
+    <p class="modal-subtitle">Preencha os detalhes abaixo para que eu possa entender seu projeto e preparar uma proposta personalizada.</p>
+
+    <form action="https://formsubmit.co/abecd408c8242188ae402f5eeff41c92" method="POST" class="formulario-modal">
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label for="modal-nome">Nome Completo</label>
+          <input type="text" id="modal-nome" name="nome_cliente" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-email">E-mail</label>
+          <input type="email" id="modal-email" name="email_cliente" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="modal-servico">Qual serviço principal você precisa?</label>
+        <select id="modal-servico" name="servico_interesse" required>
+          <option value="" disabled selected>Selecione uma opção...</option>
+          <option value="Site Profissional">Site Profissional</option>
+          <option value="Landing Page">Landing Page de Conversão</option>
+          <option value="SEO Google">SEO & Otimização Google</option>
+          <option value="Identidade Visual">Identidade Visual</option>
+          <option value="Trafego Pago">Gestão de Tráfego Pago</option>
+          <option value="Manutencao">Manutenção e Suporte</option>
+          <option value="Outro">Outro (descreva na mensagem)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="modal-referencias">Existem sites de referência que você admira?</label>
+        <input type="text" id="modal-referencias" name="sites_referencia" placeholder="Cole os links aqui (opcional)">
+      </div>
+
+      <div class="form-group">
+        <label for="modal-mensagem">Conte-me mais sobre seu projeto</label>
+        <textarea id="modal-mensagem" name="mensagem_cliente" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="botao-principal">Enviar Solicitação</button>
+    </form>
+  </div>
+</div>
+
+
 </body>
+<script src="assets/script/script.js"></script>
 </html>

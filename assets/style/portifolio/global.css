@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", monospace;
+  --font-family-maven: "Maven Pro", sans-serif;
+
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+
+  --gray-100: #E2E4E9;
+  --gray-200: #C0C4CE;
+  --gray-300: #878EA1;
+  --gray-400: #292C34;
+  --gray-500: #16181D;
+  --gray-600: #0D0E11;
+
+  --tittle-lg: 600 56px/120% var(--font-family-asap);
+  --tittle-md: 600 24px/120% var(--font-family-asap);
+  --tittle-sm: 600 16px/120% var(--font-family-asap);
+  --sub-tittle: 400 16px/120% var(--font-family-inconsolata);
+  --text-md: 400 16px/140% var(--font-family-maven);
+  --text-sm: 400 14px/140% var(--font-family-maven);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+}
+
+a:visited {
+  color: inherit; /* ou outra cor desejada */
+}
+
+.container {
+  max-width: 1200px;
+}
+

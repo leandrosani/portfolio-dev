@@ -1,0 +1,17 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Notebook estilizado -->
+  <g transform="translate(10,35)">
+    <!-- Corpo do monitor -->
+    <rect x="0" y="0" width="100" height="60" rx="8" fill="#00CFDE" />
+    <!-- Tela interna -->
+    <rect x="5" y="5" width="90" height="50" rx="5" fill="#020C1B" />
+    <!-- Teclado minimalista -->
+    <line x1="0" y1="65" x2="100" y2="65" stroke="#00CFDE" stroke-width="3"/>
+  </g>
+
+  <!-- Nome da empresa centralizado verticalmente -->
+  <text x="120" y="70" font-family="Arial, sans-serif" font-size="30" fill="#CCD6F6" font-weight="bold"
+        dominant-baseline="middle" alignment-baseline="middle">
+    SANI DIGITAL
+  </text>
+</svg>

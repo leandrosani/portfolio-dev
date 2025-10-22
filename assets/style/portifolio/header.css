@@ -1,0 +1,112 @@
+
+#primary {
+  background-image: url("../../Background_Intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 120px;
+
+  div p {
+    text-align: center;
+    width: 90%;
+    max-width: 680px;
+    color: var(--gray-300);
+    letter-spacing: 1.5px;
+  }
+
+  &> div {
+    margin: 120px 163px 0px 163px;
+
+    h1 {
+      margin-block: 10px 20px;
+      letter-spacing: 1.8px;
+    }
+  }
+
+  .contain-img {
+    height: 96px;
+    width: 96px;
+    border: 2px solid var(--red);
+    border-radius: 100%;
+    margin-bottom: 56px;
+    position: relative;
+
+    background-image: url('../../minha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    .icon {
+      position: absolute;
+      bottom: -5px;
+      right: -6px;
+      width: 32px;   /* ajuste conforme seu ícone */
+      height: 32px;
+      z-index: 10;
+    }
+  }
+}
+
+.content {  
+  max-width: 1200px;
+  
+  width: 100%;
+  gap: 20px;
+  margin-top: 80px;
+  margin-bottom: 94px;
+
+  div {
+    background-color: var(--gray-400);
+    padding-inline: 15px;
+    padding-block: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 30px;
+
+    img {
+      max-height: 24px;
+      max-width: 24px;
+    }
+
+    span {
+      color: var(--gray-200);
+    }
+  }
+}
+
+@media (max-width: 1020px){
+  .desktop-header {
+    
+    .list ul li a {
+      margin-right: 16px;
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  header#primary {
+    text-align: center;
+    padding-inline: 40px;
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      margin-inline: 40px;
+    }
+
+    p{
+      font-size: 18px;
+      color:rgb(215, 220, 224);
+    }
+
+    span.red {
+      font-size: 18px;
+      color: #E3646E;
+    }
+  }
+}
