@@ -39,6 +39,14 @@ h2 {
   text-align: center;
 }
 
+span {
+  color: #00CFDE;
+}
+
+span.sub-header {
+  color: #00CFDE;
+}
+
 body {
   background-color: var(--gray-500);
   color: var(--gray-100);

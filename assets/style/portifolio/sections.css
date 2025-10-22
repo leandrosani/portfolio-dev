@@ -65,21 +65,28 @@ section#services {
 
   article {
     max-width: 280px;
-    max-height: 155px;
+    max-height: 500px;
     border: 2px solid #ffffff2d;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     padding: 20px;
-    background-color: #0d1320
-;
+    background-color: #0d1320;
+    text-align: center;
 
     img {
       width: 36px;
       height: 33px;
       margin-bottom: 20px;
       object-fit: contain;
+    }
+
+    h3 {
+      color: #00CFDE;
+      margin-bottom: 16px;
+      height: 56.16px;
     }
   }
 }
@@ -95,7 +102,8 @@ section#contact {
   & a {
     margin: 0px;
     padding: 0px;
-    width: 80%;
+    min-width: 300px;
+    width: 60%;
   }
 
   header{

@@ -47,6 +47,7 @@ body {
 li {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: inherit; /* Herda a cor do elemento pai */
@@ -301,7 +302,6 @@ main {
   background-image: url("../Background_Contacts.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 
   & .contact-wrap {
     display: flex;
