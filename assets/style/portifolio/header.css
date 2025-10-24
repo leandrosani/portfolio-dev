@@ -29,7 +29,6 @@
     border: 2px solid #00848d;
     border-radius: 100%;
     margin-bottom: 56px;
-    position: relative;
 
     background-image: url('../../minha.png');
     background-repeat: no-repeat;
@@ -38,12 +37,10 @@
     
 
     .icon {
-      position: absolute;
-      bottom: -5px;
-      right: -6px;
-      width: 32px;   /* ajuste conforme seu ícone */
+      width: 32px;
       height: 32px;
-      z-index: 10;
+      margin-left: 65px;
+      margin-top: 60px;
     }
   }
 }
@@ -109,4 +106,37 @@
       color: #E3646E;
     }
   }
+}
+
+@media (max-width: 480px){
+  header#primary{
+      margin-bottom: 0px;
+      padding-inline: 10px ;
+
+      .container {
+        margin-inline: 10px;
+      }
+
+      & >div {
+        margin-block: 100px;
+      }
+
+      & .contain-img {
+        margin-bottom: 25px;
+      }
+
+      & .content {
+        margin-block: 40px;
+      }
+
+      & h1 {
+        font-size: 28px;
+        padding: 18px;
+      }
+
+      & p {
+        padding: 0px;
+      }
+
+    }
 }

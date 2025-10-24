@@ -57,3 +57,38 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 });
+
+
+/*MENU MOBILE*/
+const menu = document.querySelector(".menu")
+const closed = document.querySelector(".closed")
+const mobileHeader = document.querySelector(".mobile-header")
+
+const enable = "enable-nav-mobile"
+
+
+menu.addEventListener("click", ()=>{
+  menu.classList.remove(enable)
+  mobileHeader.classList.add(enable)
+})
+
+closed.addEventListener("click", ()=>{
+  mobileHeader.classList.remove(enable)
+  menu.classList.add(enable)
+})
+
+// fechar ao clicar fora do menu
+document.addEventListener("click", (e) => {
+  const clickDentroDoMenu = mobileHeader.contains(e.target) || menu.contains(e.target);
+  if (!clickDentroDoMenu) {
+    mobileHeader.classList.remove(enable);
+  }
+});
+
+// fechar ao clicar em qualquer link dentro do menu
+const links = mobileHeader.querySelectorAll("a");
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    mobileHeader.classList.remove(enable);
+  });
+});

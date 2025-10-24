@@ -170,38 +170,6 @@ footer#footer {
 }
 
 @media (max-width: 480px){
-  
-  header#primary{
-    margin-bottom: 0px;
-    padding-inline: 10px ;
-
-    .container {
-      margin-inline: 10px;
-    }
-
-    & >div {
-      margin-block: 50px;
-    }
-
-    & .contain-img {
-      margin-bottom: 25px;
-    }
-
-    & .content {
-      margin-block: 40px;
-    }
-
-    & h1 {
-      font-size: 28px;
-      padding: 18px;
-    }
-
-    & p {
-      padding: 0px;
-    }
-
-  }
-
   main #work {
     margin-bottom: 50px;
 
@@ -229,6 +197,4 @@ footer#footer {
       margin-top: 0px;
     }
   }
-  
-
 }
