@@ -11,8 +11,7 @@
 </head>
 <body>
   <header class="desktop-header">
-    <div class="container-row">
-      
+    <div class="container-row">  
       <nav class="list">
         <ul>
           <li><a href="#primary">Home</a></li>
@@ -24,6 +23,21 @@
       <div class="btn-budget">
         <p>ORÇAMENTO GRÁTIS</p>
       </div>
+    </div>
+  </header>
+
+  <header class="mobile-wraper">
+    <div class="menu"></div>
+    <div class="mobile-header">
+      <div class="closed"></div>
+      <nav class="list">
+        <ul>
+          <li><a href="#primary">Home</a></li>
+          <li><a href="#work">Projetos</a></li>
+          <li><a href="#services">Meus serviços</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -90,7 +104,7 @@
             <div>
               <h3>Travelgram</h3>
               <p class="text-sm gray-200">
-                Galeria interativa para compartilhamento de fotos, desenvolvida com HTML, CSS e JavaScript puro.
+                Galeria para compartilhamento de fotos, desenvolvida com HTML, CSS e JavaScript puro.
               </p>
             </div>
           </article>
@@ -313,58 +327,6 @@
       </div>
     </div>
   </main>
-
-  <!--MODAL ORÇAMENTO-->
-  <div id="modal-orcamento" class="modal-overlay">
-  <div class="modal-content">
-    <button id="close-modal" class="close-button">&times;</button>
-    
-    <h2>Solicite seu Orçamento Gratuito</h2>
-    <p class="modal-subtitle">Preencha os detalhes abaixo para que eu possa entender seu projeto e preparar uma proposta personalizada.</p>
-
-    <form action="https://formsubmit.co/abecd408c8242188ae402f5eeff41c92" method="POST" class="formulario-modal">
-      
-      <div class="form-row">
-        <div class="form-group">
-          <label for="modal-nome">Nome Completo</label>
-          <input type="text" id="modal-nome" name="nome_cliente" required>
-        </div>
-        <div class="form-group">
-          <label for="modal-email">E-mail</label>
-          <input type="email" id="modal-email" name="email_cliente" required>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label for="modal-servico">Qual serviço principal você precisa?</label>
-        <select id="modal-servico" name="servico_interesse" required>
-          <option value="" disabled selected>Selecione uma opção...</option>
-          <option value="Site Profissional">Site Profissional</option>
-          <option value="Landing Page">Landing Page de Conversão</option>
-          <option value="SEO Google">SEO & Otimização Google</option>
-          <option value="Identidade Visual">Identidade Visual</option>
-          <option value="Trafego Pago">Gestão de Tráfego Pago</option>
-          <option value="Manutencao">Manutenção e Suporte</option>
-          <option value="Outro">Outro (descreva na mensagem)</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="modal-referencias">Existem sites de referência que você admira?</label>
-        <input type="text" id="modal-referencias" name="sites_referencia" placeholder="Cole os links aqui (opcional)">
-      </div>
-
-      <div class="form-group">
-        <label for="modal-mensagem">Conte-me mais sobre seu projeto</label>
-        <textarea id="modal-mensagem" name="mensagem_cliente" rows="5" required></textarea>
-      </div>
-
-      <button type="submit" class="botao-principal">Enviar Solicitação</button>
-    </form>
-  </div>
-</div>
-
-
 </body>
 <script src="assets/script/script.js"></script>
 </html>
